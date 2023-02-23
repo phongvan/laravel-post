@@ -21,7 +21,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "UnicaDev\\LaravelPost\\PostServiceProvider"
+        "UnicaDev\\LaravelPost\\LaravelPostServiceProvider"
       ]
     }
   }
