@@ -1,0 +1,29 @@
+{
+  "name": "unicadev/laravel-post",
+  "description": "A Laravel package for displaying posts.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "TinhTN",
+      "email": "tinh.icolor@email.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/support": "^8.0|^9.0",
+    "illuminate/view": "^8.0|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "UnicaDev\\LaravelPost\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "UnicaDev\\LaravelPost\\PostServiceProvider"
+      ]
+    }
+  }
+}
+
